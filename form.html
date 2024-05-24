@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <form class="myForm" action="https://httpbin.org/anything" method="post">
+
+        <div class="header">
+            <img src="Images/logo.svg" alt="logo" style="height:32px";>
+        </div>
+
+        <br>
+
+        <div class="intro">
+            <h3>Sign up</h3>
+            <p>Join the leading showcase platform for games, <br> film, media, and entertainment artists. </p>
+        </div>
+
+      <div class="names">
+        <div class="inputName">
+          <label for="userName">Userame <span class="mandatory">*</span> </label>
+          <input id="username" placeholder="ex. John Appleseed" name="name" type="text" aria-required="true" required="" />
+        </div>
+
+        <div class="inputName">
+          <label for="email">Email <span class="mandatory">*</span> </label>
+          <input id="email" placeholder="ex. john@appleseed.com" name="name" type="text" aria-required="true" required="" />
+        </div>
+
+      <div class="inputName">
+        <label for="password">Password <span class="mandatory">*</span> </label>
+        <input id="password" placeholder="min. 8 characters" name="password" type="password" aria-required="true" required=""/>
+      </div>
+
+      <br>
+
+      <div class="outro"> 
+        <input type="checkbox" id="tick" name="terms"> &nbsp; &nbsp;
+        <label for="terms"> <p> By creating an account, you agree to our <a href="https://www.artstation.com/tos" target="_blank">Terms of Service </a> <br> and <a href="https://www.artstation.com/privacy" target="_blank">Privacy Policy</a>.</p></label>
+      </div>
+
+
+      <button class="btn" type="submit">Create account</button>
+
+      <div class="existingAccount"> 
+        <p>Already have an account? <a href="https://www.artstation.com/users/sign_in" target="_blank">Sign in</a>.</p> 
+      </div>
+
+    </form>
+  </body>
+
+<!--  
+<body>
+
+    <div class="background">
+
+        <div class="container">
+            
+            <div class="form">
+
+                <div class="header">
+                    <img src="Images/logo.svg" alt="logo" style="height:32px"; >
+                </div>
+
+                <form>
+                    <div class="intro">
+                        <h3>Sign up</h3>
+                        <p>Join the leading showcase platform for games, <br> film, media, and entertainment artists. </p>
+                    </div>
+
+                    <div class="textField">
+                        <label for="username">Username <span class="mandatory">*</span> </label>
+                        <input type="text" required aria-required="true" placeholder="ex. John Appleseed" id="username"required="">
+
+                        <label for="email">Email <span class="mandatory">*</span> </label>
+                        <input type="text" required aria-required="true"  placeholder="ex. john@apppleseed.com" id="email" required="">
+
+                        <label for="password">Password <span class="mandatory">*</span> </label>
+                        <input type="password" required aria-required="true" placeholder="at least 6 characters" id="password" required="">
+                    </div>
+                     
+                    <br> <br>
+
+                    <div class="outro">
+                        <input type="checkbox" id="tick" name="terms"> &nbsp; &nbsp;
+                        <label for="terms"> <p> By creating an account, you agree to our &nbsp;<a href="https://www.artstation.com/tos" target="_blank">Terms of Service </a> <br> and &nbsp; <a href="https://www.artstation.com/privacy" target="_blank">Privacy Policy</a>.</p></label>
+                    </div>
+                    
+                    <br><button>Create account</button>
+
+                    <div class="existingAccount">
+                        <p>Already have an account? &nbsp; <a href="https://www.artstation.com/users/sign_in" target="_blank">Sign in</a> </p> 
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+-->
+
+</html>

@@ -1,0 +1,178 @@
+body {
+    background-color: darkslategrey;
+}
+
+.background {
+    height: 880px;
+}
+
+.header {
+    margin-top:12px;
+    margin-left:24px;
+}
+
+.myForm {
+    height: 780px;
+    width: 560px;
+    padding: 24px 24px;
+    background-color: darkslategrey;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    font-family: 'Outfit',sans-serif;
+    color:white;
+    outline: none;
+    border: none;
+}
+
+.intro {
+    margin: 24px;
+}
+
+.intro h3 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.intro p {
+    font-size: 24px;
+    font-weight:200;
+    text-align:left;
+}
+
+.inputName {
+    margin: 24px;
+}
+
+.inputName label {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mandatory {
+    color: aqua;
+}
+
+.inputName input {
+    display: block;
+    height: 40px;
+    width: 95%;
+    background-color: rgba(112, 128, 144,0.2);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    -webkit-text-fill-color: slategrey;
+    font-family:'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 1rem;
+}
+
+.inputName input:focus {
+    border: 4px solid aqua;
+    background-color: white;
+}
+
+.outro {
+margin-right:24px;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+    padding: initial;
+    border: initial;
+    width: 1rem;
+}
+
+.outro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.outro p {
+    text-align: left;
+    color:white;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0 auto;
+}
+
+.outro a {
+    color:aqua;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+.outro a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+button{
+    justify-content: center;
+    margin-top: 40px;
+    margin-left:20px;
+    width: 91%;
+    background-color:rgb(199, 243, 239);
+    color: black;
+    padding: 15px 0;
+    font-family: 'Outfit';
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    margin-top: 40px;
+    margin-left:20px;
+    width: 91%;
+    background-color: aqua;
+    color: black;
+    padding: 15px 0;
+    font-family: 'Outfit';
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;  
+}
+
+.existingAccount {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family:'Outfit',sans-serif;
+    font-weight:200;
+}
+
+.existingAccount p {
+    color:white;
+    font-size: 18px;
+}
+
+.existingAccount a {
+    color:aqua;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+.existingAccount a:hover {
+    color:white;
+    text-decoration: underline;
+}
